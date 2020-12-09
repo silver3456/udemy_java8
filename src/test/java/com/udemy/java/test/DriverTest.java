@@ -1,6 +1,7 @@
 package com.udemy.java.test;
 
 import com.udemy.java.supplier.DriverFactory;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
@@ -16,6 +17,8 @@ public class DriverTest {
     @Test
     public void googleTest() {
         this.driver.get("https://google.com");
+        this.driver.findElements(By.tagName("a"))
+                .forEach(e -> System.out.println(e.getText()));
     }
 
     @AfterTest
