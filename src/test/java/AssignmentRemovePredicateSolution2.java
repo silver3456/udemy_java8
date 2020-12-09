@@ -24,7 +24,9 @@ public class AssignmentRemovePredicateSolution2 {
 
         System.out.println("Before:: " + elements.size());
 
-        PredicateRules.get().forEach(rule -> elements.removeIf(rule));
+//        PredicateRules.get().forEach(rule -> elements.removeIf(rule));
+
+        PredicateRules.get().forEach(elements::removeIf);
 
         System.out.println("After:: " + elements.size());
 
