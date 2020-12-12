@@ -43,8 +43,7 @@
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/regression/NegativeTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/test_data/DataGenerator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/java/stream/EvenNumbersStreamTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/java/stream/StreamTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTestStream.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/MainClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/Table.java" afterDir="false" />
@@ -81,13 +80,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="64" />
+          <entry key="JAVA" value="68" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5118" />
+          <entry key="JAVA" value="5498" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="XML" value="20" />
         </counts>
@@ -96,26 +95,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/stream/EvenNumbersStreamTask.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTestStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="28" column="53" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="28" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/stream/StreamTask2.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTestPredicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="256">
+              <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -178,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/udemy/java/calculator/TestCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/udemy/java/stream/EvenNumbersStreamTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/udemy/java/stream/StreamTask2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTestStream.java" />
       </list>
     </option>
   </component>
@@ -292,6 +286,17 @@
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="udemy-java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy-java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -301,7 +306,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Consum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Consumer.class" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607747813816" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607806698251" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -312,9 +317,9 @@
       <recent name="com" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.udemy.java.test" />
       <recent name="com.udemy" />
       <recent name="" />
-      <recent name="com.udemy.java.test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamTask2">
+  <component name="RunManager" selected="TestNG.DriverTestStream.googleTest2">
     <configuration name="CallableInterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.CallableInterTest" />
       <module name="udemy-java8" />
@@ -349,19 +354,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.udemy.java.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnableInterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.RunnableInterTest" />
-      <module name="udemy-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,20 +387,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DriverTestStream.googleTest2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="udemy-java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.java.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy.java.test" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.java.test.DriverTestStream" />
+      <option name="METHOD_NAME" value="googleTest2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.RunnableInterTest" />
       <item itemvalue="Application.CallableInterTest" />
       <item itemvalue="Application.TestCalculator" />
       <item itemvalue="Application.EvenNumbersStreamTask" />
       <item itemvalue="Application.StreamTask2" />
+      <item itemvalue="TestNG.DriverTestStream.googleTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DriverTestStream.googleTest2" />
         <item itemvalue="Application.StreamTask2" />
         <item itemvalue="Application.EvenNumbersStreamTask" />
         <item itemvalue="Application.TestCalculator" />
         <item itemvalue="Application.CallableInterTest" />
-        <item itemvalue="Application.RunnableInterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -426,35 +436,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DriverTest_googleTest - 2020.12.06 at 13h 30m 49s.xml">
-      <configuration name="DriverTest.googleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DriverTest_googleTest - 2020.12.06 at 13h 32m 21s.xml">
-      <configuration name="DriverTest.googleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DriverTest_googleTest - 2020.12.06 at 13h 32m 37s.xml">
-      <configuration name="DriverTest.googleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DriverTest_googleTest - 2020.12.06 at 13h 47m 27s.xml">
-      <configuration name="DriverTest.googleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DriverTestPredicate_googleTest - 2020.12.08 at 19h 40m 25s.xml">
-      <configuration name="DriverTestPredicate.googleTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DriverTestPredicate_googleTest_(1) - 2020.12.08 at 19h 42m 23s.xml">
-      <configuration name="DriverTestPredicate.googleTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AssignmentRemovePredicate - 2020.12.08 at 19h 55m 10s.xml">
-      <configuration name="AssignmentRemovePredicate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AssignmentRemovePredicate - 2020.12.08 at 19h 59m 24s.xml">
-      <configuration name="AssignmentRemovePredicate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AssignmentRemovePredicate - 2020.12.08 at 20h 02m 15s.xml">
-      <configuration name="AssignmentRemovePredicate" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AssignmentRemovePredicateSolution2_googleTest - 2020.12.08 at 20h 13m 31s.xml">
       <configuration name="AssignmentRemovePredicateSolution2.googleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DriverTestStream_googleTest2 - 2020.12.12 at 12h 47m 05s.xml">
+      <configuration name="DriverTestStream.googleTest2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DriverTestStream_googleTest2 - 2020.12.12 at 12h 47m 32s.xml">
+      <configuration name="DriverTestStream.googleTest2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DriverTestStream_googleTest2 - 2020.12.12 at 12h 50m 13s.xml">
+      <configuration name="DriverTestStream.googleTest2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DriverTestStream_googleTest2 - 2020.12.12 at 12h 51m 00s.xml">
+      <configuration name="DriverTestStream.googleTest2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DriverTestStream_googleTest2 - 2020.12.12 at 12h 51m 58s.xml">
+      <configuration name="DriverTestStream.googleTest2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DriverTestStream_googleTest2 - 2020.12.12 at 12h 53m 31s.xml">
+      <configuration name="DriverTestStream.googleTest2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DriverTestStream_googleTest2 - 2020.12.12 at 12h 57m 11s.xml">
+      <configuration name="DriverTestStream.googleTest2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DriverTestStream_googleTest2 - 2020.12.12 at 12h 57m 31s.xml">
+      <configuration name="DriverTestStream.googleTest2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DriverTestStream_googleTest2 - 2020.12.12 at 12h 58m 12s.xml">
+      <configuration name="DriverTestStream.googleTest2" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -555,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTestPredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="26" column="80" lean-forward="true" selection-start-line="26" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -656,16 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,16 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/stream/EvenNumbersStreamTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="53" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/stream/StreamTask2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -795,6 +778,40 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/stream/EvenNumbersStreamTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTestPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTestStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
