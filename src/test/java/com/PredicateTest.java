@@ -1,5 +1,7 @@
 package com;
 
+import org.openqa.selenium.WebElement;
+
 import java.util.function.Predicate;
 
 public class PredicateTest {
@@ -9,5 +11,7 @@ public class PredicateTest {
         Predicate<Integer> isLT10 = (n) -> n < 10;
 
         System.out.println(isGT2.test(3));
+
     }
+
 }

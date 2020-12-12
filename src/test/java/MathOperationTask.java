@@ -1,6 +1,6 @@
 import lambda.MathOperation;
 
-public class Assignment2 {
+public class MathOperationTask {
     public static void main(String[] args) {
 
         //5 + 2  - 3 * 7 + 2 /3;
