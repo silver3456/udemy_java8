@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
@@ -30,11 +31,20 @@ public class TerminalOperTest {
 //                .count() // counts after some changes are made inside the list
 
 
+//                list.stream()
+//                        .filter(s -> s.length() > 3)
+//                        .findFirst() //returns Optional meaning if there is no satisfied
+                //condition then it will not do anything
+
+
+//                list.stream()
+//                        .min(Comparator.naturalOrder())
+//                        .get() // to get optional value
 
                 list.stream()
                         .filter(s -> s.length() > 3)
-                        .findFirst() //returns Optional meaning if there is no satisfied
-                                    //condition then it will not do anything
+                        .anyMatch(s -> s.contains("e"))
+
 
         );
     }
