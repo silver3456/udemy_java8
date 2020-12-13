@@ -43,9 +43,6 @@
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/regression/NegativeTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/test_data/DataGenerator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/java/util/LinkUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/LinkUtilTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/MainClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/Table.java" afterDir="false" />
@@ -58,8 +55,7 @@
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/main/java/com/football_manager/utils/ResponseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/main/java/com/football_manager/utils/ResponseParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TerminalOperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TerminalOperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,7 +85,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8514" />
+          <entry key="JAVA" value="8817" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="XML" value="20" />
         </counts>
@@ -146,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="303">
+              <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -359,7 +355,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Consum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Consumer.class" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607894166094" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607895048143" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -389,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BrokenLinkTest.linkTest">
+  <component name="RunManager" selected="TestNG.BrokenLinkTest.linkTestHref">
     <configuration name="FlatMapTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.FlatMapTesting" />
       <module name="udemy-java8" />
@@ -441,7 +437,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrokenLinkTest.linkTestHref" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="udemy-java8" />
       <extension name="coverage">
         <pattern>
@@ -450,8 +446,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.udemy.java.test" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.java.test.CheckBoxMaleOrFemaleAssignment" />
-      <option name="METHOD_NAME" value="testSelectCheckBoxImprovedWithPredicate" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.java.test.BrokenLinkTest" />
+      <option name="METHOD_NAME" value="linkTestHref" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -460,19 +456,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" />
       <item itemvalue="Application.FlatMapTesting" />
       <item itemvalue="Application.TerminalOperTest" />
       <item itemvalue="Application.LinkUtilTest" />
       <item itemvalue="TestNG.BrokenLinkTest.linkTest" />
+      <item itemvalue="TestNG.BrokenLinkTest.linkTestHref" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BrokenLinkTest.linkTestHref" />
         <item itemvalue="TestNG.BrokenLinkTest.linkTest" />
         <item itemvalue="Application.LinkUtilTest" />
         <item itemvalue="Application.TerminalOperTest" />
         <item itemvalue="Application.FlatMapTesting" />
-        <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" />
       </list>
     </recent_temporary>
   </component>
@@ -490,9 +486,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckBoxMaleOrFemaleAssignment_testSelectCheckBoxImprovedWithPredicate - 2020.12.12 at 16h 34m 14s.xml">
-      <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CheckBoxMaleOrFemaleAssignment_testSelectCheckBoxImprovedWithPredicate - 2020.12.12 at 16h 34m 29s.xml">
       <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" configurationId="TestNG" />
     </history-entry>
@@ -520,9 +513,13 @@
     <history-entry file="BrokenLinkTest_linkTest - 2020.12.13 at 13h 16m 19s.xml">
       <configuration name="BrokenLinkTest.linkTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="BrokenLinkTest_linkTestHref - 2020.12.13 at 13h 20m 22s.xml">
+      <configuration name="BrokenLinkTest.linkTestHref" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1024" height="615" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.29124236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -533,7 +530,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5764023" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5764023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984526" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -974,8 +971,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="303">
+          <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
