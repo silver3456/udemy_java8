@@ -10,10 +10,15 @@ import org.testng.annotations.*;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Predicate;
 
 public class CheckBoxMaleOrFemaleAssignment {
     private WebDriver driver;
     private TableDemoPage tableDemoPage;
+
+    //l.get(1) --> give me the 2nd cell
+    Predicate<List<WebElement>> allMale = (l) -> l.get(1).getText().equalsIgnoreCase("male");
+    Predicate<List<WebElement>> allFemale = (l) -> l.get(1).getText().equalsIgnoreCase("female");
 
     private static final String URL = "https://vins-udemy.s3.amazonaws.com/java/html/java8-stream-table-1.html";
 
@@ -33,7 +38,7 @@ public class CheckBoxMaleOrFemaleAssignment {
                 .forEach(WebElement::click);
     }
 
-    @Test(dataProvider = "gender")
+    @Test(dataProvider = "testData")
     public void selectCheckBoxGenderValidation(String gender) {
         this.driver.navigate().to(URL);
         this.driver.findElements(By.tagName("tr"))
@@ -49,7 +54,7 @@ public class CheckBoxMaleOrFemaleAssignment {
         Uninterruptibles.sleepUninterruptibly(1, TimeUnit.SECONDS); // sleep for a sec to see what's happening
     }
 
-    @Test(dataProvider = "gender")
+    @Test(dataProvider = "testData")
     public void selectCheckBoxGenderImprovedValidation(String gender){
         tableDemoPage.goTo();
         tableDemoPage.selectRows(gender);
@@ -57,13 +62,28 @@ public class CheckBoxMaleOrFemaleAssignment {
 
     }
 
+    @Test(dataProvider = "criteriaProvider")
+    public void testSelectCheckBoxImprovedWithPredicate(Predicate<List<WebElement>> searchCriteria) {
+        tableDemoPage.goTo();
+        tableDemoPage.selectGenericRows(searchCriteria);
+    }
+
     @DataProvider(name = "gender")
-    public Object[] testDate() {
+    public Object[] testData() {
         return new Object[] {
                 "male",
                 "female"
         };
     }
+
+    @DataProvider(name = "criteriaProvider")
+    public Object[] testData2() {
+        return new Object[] {
+                allMale,
+                allFemale
+        };
+    }
+
 
 
     @AfterTest
