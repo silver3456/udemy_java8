@@ -16,10 +16,6 @@ public class CheckBoxMaleOrFemaleAssignment {
     private WebDriver driver;
     private TableDemoPage tableDemoPage;
 
-    //l.get(1) --> give me the 2nd cell
-    Predicate<List<WebElement>> allMale = (l) -> l.get(1).getText().equalsIgnoreCase("male");
-    Predicate<List<WebElement>> allFemale = (l) -> l.get(1).getText().equalsIgnoreCase("female");
-
     private static final String URL = "https://vins-udemy.s3.amazonaws.com/java/html/java8-stream-table-1.html";
 
 
@@ -66,6 +62,8 @@ public class CheckBoxMaleOrFemaleAssignment {
     public void testSelectCheckBoxImprovedWithPredicate(Predicate<List<WebElement>> searchCriteria) {
         tableDemoPage.goTo();
         tableDemoPage.selectGenericRows(searchCriteria);
+        Uninterruptibles.sleepUninterruptibly(1, TimeUnit.SECONDS); // sleep for a sec to see what's happening
+
     }
 
     @DataProvider(name = "gender")
@@ -78,9 +76,19 @@ public class CheckBoxMaleOrFemaleAssignment {
 
     @DataProvider(name = "criteriaProvider")
     public Object[] testData2() {
+        //l.get(1) --> give me the 2nd cell
+        Predicate<List<WebElement>> allMale = (l) -> l.get(1).getText().equalsIgnoreCase("male");
+        Predicate<List<WebElement>> allFemale = (l) -> l.get(1).getText().equalsIgnoreCase("female");
+        Predicate<List<WebElement>> allGender = allMale.or(allFemale);
+        Predicate<List<WebElement>> usaOnly = (l) -> l.get(2).getText().equalsIgnoreCase("usa");
+        Predicate<List<WebElement>> femaleFromUSA = allFemale.and(usaOnly);
+
         return new Object[] {
                 allMale,
-                allFemale
+                allFemale,
+                allGender,
+                usaOnly,
+                femaleFromUSA
         };
     }
 
