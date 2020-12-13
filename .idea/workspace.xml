@@ -43,6 +43,7 @@
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/regression/NegativeTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/test_data/DataGenerator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/java/supplier/SearchCriteriaFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/MainClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/Table.java" afterDir="false" />
@@ -55,6 +56,7 @@
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/main/java/com/football_manager/utils/ResponseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/main/java/com/football_manager/utils/ResponseParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/CheckBoxMaleOrFemaleAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/CheckBoxMaleOrFemaleAssignment.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -79,13 +81,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="75" />
+          <entry key="JAVA" value="76" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7243" />
+          <entry key="JAVA" value="7467" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="XML" value="20" />
         </counts>
@@ -124,8 +126,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/CheckBoxMaleOrFemaleAssignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="83" column="38" lean-forward="true" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
+            <state relative-caret-position="277">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/supplier/SearchCriteriaFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/supplier/DriverFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="22" column="80" lean-forward="true" selection-start-line="22" selection-end-line="23" />
               <folding>
                 <element signature="e#970#971#0" expanded="true" />
                 <element signature="e#1015#1016#0" expanded="true" />
@@ -238,6 +254,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTestStream.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/CheckBoxAssignment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/udemy/java/pages/TableDemoPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/udemy/java/supplier/SearchCriteriaFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/CheckBoxMaleOrFemaleAssignment.java" />
       </list>
     </option>
@@ -317,6 +334,17 @@
               <item name="udemy-java8" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemy-java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="supplier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udemy-java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy-java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -373,7 +401,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Consum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Consumer.class" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607819980656" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607890124142" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -402,24 +430,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate">
-    <configuration name="CheckBoxAssignment.selectCheckBoxValidation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="udemy-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.java.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udemy.java.test" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.java.test.CheckBoxAssignment" />
-      <option name="METHOD_NAME" value="selectCheckBoxValidation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CheckBoxMaleOrFemaleAssignment.selectCheckBoxGenderImprovedValidation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="udemy-java8" />
       <extension name="coverage">
@@ -492,20 +502,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxWithPredicateNoProvider" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="udemy-java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.java.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy.java.test" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.java.test.CheckBoxMaleOrFemaleAssignment" />
+      <option name="METHOD_NAME" value="testSelectCheckBoxWithPredicateNoProvider" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.CheckBoxAssignment.selectCheckBoxValidation" />
       <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.selectCheckBoxGenderValidation" />
       <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.selectCheckBoxValidation" />
       <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.selectCheckBoxGenderImprovedValidation" />
       <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" />
+      <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxWithPredicateNoProvider" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" />
+        <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxWithPredicateNoProvider" />
         <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.selectCheckBoxGenderImprovedValidation" />
         <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.selectCheckBoxGenderValidation" />
         <item itemvalue="TestNG.CheckBoxMaleOrFemaleAssignment.selectCheckBoxValidation" />
-        <item itemvalue="TestNG.CheckBoxAssignment.selectCheckBoxValidation" />
       </list>
     </recent_temporary>
   </component>
@@ -523,9 +551,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckBoxMaleOrFemaleAssignment_testSelectCheckBoxImprovedWithPredicate - 2020.12.12 at 16h 24m 29s.xml">
-      <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CheckBoxMaleOrFemaleAssignment_testSelectCheckBoxImprovedWithPredicate - 2020.12.12 at 16h 28m 24s.xml">
       <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" configurationId="TestNG" />
     </history-entry>
@@ -551,6 +576,9 @@
       <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" configurationId="TestNG" />
     </history-entry>
     <history-entry file="CheckBoxMaleOrFemaleAssignment_testSelectCheckBoxImprovedWithPredicate - 2020.12.12 at 16h 35m 20s.xml">
+      <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckBoxMaleOrFemaleAssignment_testSelectCheckBoxImprovedWithPredicate - 2020.12.12 at 16h 39m 01s.xml">
       <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -888,17 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/supplier/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTestStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -950,10 +967,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/supplier/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="80" lean-forward="true" selection-start-line="22" selection-end-line="23" />
+          <folding>
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/supplier/SearchCriteriaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/CheckBoxMaleOrFemaleAssignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="83" column="38" lean-forward="true" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
+        <state relative-caret-position="277">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>

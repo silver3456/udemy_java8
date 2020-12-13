@@ -3,6 +3,7 @@ package com.udemy.java.test;
 import com.google.common.util.concurrent.Uninterruptibles;
 import com.udemy.java.pages.TableDemoPage;
 import com.udemy.java.supplier.DriverFactory;
+import com.udemy.java.supplier.SearchCriteriaFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -66,6 +67,16 @@ public class CheckBoxMaleOrFemaleAssignment {
 
     }
 
+    //If we don't use dataProvider then we can call static method
+
+    @Test
+    public void testSelectCheckBoxWithPredicateNoProvider() {
+        tableDemoPage.goTo();
+        tableDemoPage.selectGenericRows(SearchCriteriaFactory.getCriteria("allMale"));
+        Uninterruptibles.sleepUninterruptibly(1, TimeUnit.SECONDS); // sleep for a sec to see what's happening
+
+    }
+
     @DataProvider(name = "gender")
     public Object[] testData() {
         return new Object[] {
@@ -77,18 +88,13 @@ public class CheckBoxMaleOrFemaleAssignment {
     @DataProvider(name = "criteriaProvider")
     public Object[] testData2() {
         //l.get(1) --> give me the 2nd cell
-        Predicate<List<WebElement>> allMale = (l) -> l.get(1).getText().equalsIgnoreCase("male");
-        Predicate<List<WebElement>> allFemale = (l) -> l.get(1).getText().equalsIgnoreCase("female");
-        Predicate<List<WebElement>> allGender = allMale.or(allFemale);
-        Predicate<List<WebElement>> usaOnly = (l) -> l.get(2).getText().equalsIgnoreCase("usa");
-        Predicate<List<WebElement>> femaleFromUSA = allFemale.and(usaOnly);
 
         return new Object[] {
-                allMale,
-                allFemale,
-                allGender,
-                usaOnly,
-                femaleFromUSA
+                SearchCriteriaFactory.getCriteria("allMale"),
+                SearchCriteriaFactory.getCriteria("allFemale"),
+                SearchCriteriaFactory.getCriteria("allGender"),
+                SearchCriteriaFactory.getCriteria("usaOnly"),
+                SearchCriteriaFactory.getCriteria("femaleFromUSA"),
         };
     }
 
