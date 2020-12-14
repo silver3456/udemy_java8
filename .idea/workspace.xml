@@ -43,10 +43,7 @@
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/regression/NegativeTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/test_data/DataGenerator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udemy/java/compare/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionImprovedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IntStreamTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/MainClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/Table.java" afterDir="false" />
@@ -59,7 +56,7 @@
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/main/java/com/football_manager/utils/ResponseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/main/java/com/football_manager/utils/ResponseParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CollectionImprovedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CollectionImprovedTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,13 +80,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="93" />
+          <entry key="JAVA" value="94" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10032" />
+          <entry key="JAVA" value="10266" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="XML" value="20" />
         </counts>
@@ -110,11 +107,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CollectionImprovedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+            <state relative-caret-position="243">
+              <caret line="9" column="60" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/IntStreamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/TestTwoMain.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestThreeMain.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFourMain.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFiveMain.java" />
@@ -196,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CollectionsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CollectionImprovedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IntStreamTest.java" />
       </list>
     </option>
   </component>
@@ -330,7 +339,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Consum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Consumer.class" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607912396936" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607913137765" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -360,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CollectionImprovedTest">
+  <component name="RunManager" selected="Application.IntStreamTest">
     <configuration name="CollectionImprovedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionImprovedTest" />
       <module name="udemy-java8" />
@@ -382,6 +391,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntStreamTest" />
+      <module name="udemy-java8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OptionalClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OptionalClassTest" />
       <module name="udemy-java8" />
@@ -389,38 +405,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrokenLinkTest.testBrokenImagesCollector" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="udemy-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.java.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udemy.java.test" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.java.test.BrokenLinkTest" />
-      <option name="METHOD_NAME" value="testBrokenImagesCollector" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.BrokenLinkTest.testBrokenImagesCollector" />
       <item itemvalue="Application.OptionalClassTest" />
       <item itemvalue="Application.ComparatorTest" />
       <item itemvalue="Application.CollectionsTest" />
       <item itemvalue="Application.CollectionImprovedTest" />
+      <item itemvalue="Application.IntStreamTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntStreamTest" />
         <item itemvalue="Application.CollectionImprovedTest" />
         <item itemvalue="Application.CollectionsTest" />
         <item itemvalue="Application.ComparatorTest" />
         <item itemvalue="Application.OptionalClassTest" />
-        <item itemvalue="TestNG.BrokenLinkTest.testBrokenImagesCollector" />
       </list>
     </recent_temporary>
   </component>
@@ -525,9 +523,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/FunctionInterComposeTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestThreeMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -956,8 +951,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CollectionImprovedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+        <state relative-caret-position="243">
+          <caret line="9" column="60" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IntStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

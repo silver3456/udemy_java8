@@ -11,6 +11,7 @@ public class CollectionImprovedTest {
 
         int sum = list.stream()
                 .mapToInt(a -> a)// converts wrapper type to a primitive
+//                .boxed() //convert back to Integer if needed
                 .sum(); // this method becomes available
 
         System.out.println(sum);
