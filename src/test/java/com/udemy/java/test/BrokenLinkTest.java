@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -69,6 +70,24 @@ public class BrokenLinkTest {
                 .collect(Collectors.toList());// create a new list that stores broken images
 
         Assert.assertEquals(list.size(), 0, list.toString());
+    }
+
+    @Test
+    public void testBrokenImagesCollector() {
+        this.driver.get("https://www.google.com");
+
+        System.out.println("Before :: " + LocalDateTime.now());
+
+        List<String> list = this.driver.findElements(By.xpath("//*[@href]"))
+                .stream()
+                .parallel()
+                .map(e -> e.getAttribute("href"))
+                .filter(src -> LinkUtil.getResponseCode(src) != 200)
+                .collect(Collectors.toList());// create a new list that stores broken images
+
+        System.out.println("After :: " + LocalDateTime.now());
+
+
     }
 
 

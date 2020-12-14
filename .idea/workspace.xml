@@ -43,6 +43,8 @@
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/regression/NegativeTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/test_data/DataGenerator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OptionalClassTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/MainClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/Table.java" afterDir="false" />
@@ -55,6 +57,7 @@
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/main/java/com/football_manager/utils/ResponseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/main/java/com/football_manager/utils/ResponseParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -79,13 +82,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="86" />
+          <entry key="JAVA" value="89" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8817" />
+          <entry key="JAVA" value="9294" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="XML" value="20" />
         </counts>
@@ -139,11 +142,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
+            <state relative-caret-position="52">
+              <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OptionalClassTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CollectorsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,7 +244,9 @@
         <option value="$PROJECT_DIR$/src/test/java/TerminalOperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/udemy/java/util/LinkUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/LinkUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CollectorsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OptionalClassTest.java" />
       </list>
     </option>
   </component>
@@ -355,7 +381,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Consum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Consumer.class" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607895048143" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607910535334" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -385,35 +411,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BrokenLinkTest.linkTestHref">
-    <configuration name="FlatMapTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.FlatMapTesting" />
+  <component name="RunManager" selected="Application.OptionalClassTest">
+    <configuration name="CollectorsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectorsTest" />
       <module name="udemy-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udemy.java.test.LinkUtilTest" />
-      <module name="udemy-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.java.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TerminalOperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TerminalOperTest" />
+    <configuration name="OptionalClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OptionalClassTest" />
       <module name="udemy-java8" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -455,20 +462,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BrokenLinkTest.testBrokenImagesCollector" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="udemy-java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.java.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy.java.test" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.java.test.BrokenLinkTest" />
+      <option name="METHOD_NAME" value="testBrokenImagesCollector" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.FlatMapTesting" />
-      <item itemvalue="Application.TerminalOperTest" />
-      <item itemvalue="Application.LinkUtilTest" />
       <item itemvalue="TestNG.BrokenLinkTest.linkTest" />
       <item itemvalue="TestNG.BrokenLinkTest.linkTestHref" />
+      <item itemvalue="Application.CollectorsTest" />
+      <item itemvalue="TestNG.BrokenLinkTest.testBrokenImagesCollector" />
+      <item itemvalue="Application.OptionalClassTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalClassTest" />
+        <item itemvalue="TestNG.BrokenLinkTest.testBrokenImagesCollector" />
+        <item itemvalue="Application.CollectorsTest" />
         <item itemvalue="TestNG.BrokenLinkTest.linkTestHref" />
         <item itemvalue="TestNG.BrokenLinkTest.linkTest" />
-        <item itemvalue="Application.LinkUtilTest" />
-        <item itemvalue="Application.TerminalOperTest" />
-        <item itemvalue="Application.FlatMapTesting" />
       </list>
     </recent_temporary>
   </component>
@@ -486,12 +511,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckBoxMaleOrFemaleAssignment_testSelectCheckBoxImprovedWithPredicate - 2020.12.12 at 16h 34m 29s.xml">
-      <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CheckBoxMaleOrFemaleAssignment_testSelectCheckBoxImprovedWithPredicate - 2020.12.12 at 16h 34m 43s.xml">
-      <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CheckBoxMaleOrFemaleAssignment_testSelectCheckBoxImprovedWithPredicate - 2020.12.12 at 16h 35m 20s.xml">
       <configuration name="CheckBoxMaleOrFemaleAssignment.testSelectCheckBoxImprovedWithPredicate" configurationId="TestNG" />
     </history-entry>
@@ -515,6 +534,12 @@
     </history-entry>
     <history-entry file="BrokenLinkTest_linkTestHref - 2020.12.13 at 13h 20m 22s.xml">
       <configuration name="BrokenLinkTest.linkTestHref" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BrokenLinkTest_testBrokenImagesCollector - 2020.12.13 at 17h 03m 42s.xml">
+      <configuration name="BrokenLinkTest.testBrokenImagesCollector" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BrokenLinkTest_testBrokenImagesCollector - 2020.12.13 at 17h 04m 37s.xml">
+      <configuration name="BrokenLinkTest.testBrokenImagesCollector" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -573,27 +598,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/GreetingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/predicate/PredicateRules.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -969,13 +973,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CollectorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
+        <state relative-caret-position="102">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="115" column="55" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
+          <folding>
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OptionalClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
