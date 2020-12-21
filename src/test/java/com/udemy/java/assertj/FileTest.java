@@ -12,10 +12,9 @@ public class FileTest {
     @Test
     public void fileTest() {
 
-       Path exptectedFile = Paths.get("src/test/resources/data/expected.txt");
+       Path expectedFile = Paths.get("src/test/resources/data/expected.txt");
        Path actualFile = Paths.get("src/test/resources/data/actual.txt");
 
-
-       assertThat(actualFile).hasSameContentAs(exptectedFile);
+       assertThat(actualFile).hasSameContentAs(expectedFile);
     }
 }
