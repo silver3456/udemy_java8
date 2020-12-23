@@ -9,6 +9,10 @@ public class WebElementAssert extends AbstractAssert<WebElementAssert, WebElemen
         super(webElement, WebElementAssert.class);
     }
 
+    public static WebElementAssert assertThat(WebElement element) {
+        return new WebElementAssert(element);
+    }
+
     public WebElementAssert isDisplayed() {
         isNotNull();
         if (!actual.isDisplayed()) {
@@ -39,7 +43,7 @@ public class WebElementAssert extends AbstractAssert<WebElementAssert, WebElemen
     public WebElementAssert hasAttributeValue(String attr, String value) {
         isNotNull();
         if (!actual.getAttribute(attr).equalsIgnoreCase(value)) {
-            failWithMessage("Expected element to have attr <%s> value as<%s>", attr, value);
+            failWithMessage("Expected element to have attr <%s> value as<%s> but wasn't", attr, value);
         }
         return this;
     }

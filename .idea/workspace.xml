@@ -43,7 +43,11 @@
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/regression/NegativeTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/test_data/DataGenerator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/assertion/WebElementAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/assertion/PageAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/pages/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/uitest/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/uitest/SearchTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/MainClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/Table.java" afterDir="false" />
@@ -57,11 +61,12 @@
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/FileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/ListIndivItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/ListIndivItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/PasswordValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/PasswordValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/assertion/WebElementAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/assertion/WebElementAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/udemy/java/assertj/FileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/udemy/java/assertj/ListIndivItemTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/udemy/java/assertj/ListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/udemy/java/assertj/PasswordValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/udemy/java/assertj/StringTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,7 +95,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="119" />
+          <entry key="JAVA" value="124" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="3" />
         </counts>
@@ -98,7 +103,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="12309" />
+          <entry key="JAVA" value="13483" />
           <entry key="PLAIN_TEXT" value="51" />
           <entry key="XML" value="31" />
         </counts>
@@ -107,18 +112,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TerminalOperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,25 +124,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/assertion/WebElementAssert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+            <state relative-caret-position="251">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#283#284#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/PasswordValidator.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/uitest/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="366">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/uitest/SearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/pages/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,66 +185,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/FileTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="193">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/BrokenLinkTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/assertion/PageAssert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="74">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/CharSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2346">
-              <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar!/org/assertj/core/api/Java6AbstractStandardSoftAssertions.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2024">
-              <caret line="119" column="68" selection-start-line="119" selection-start-column="68" selection-end-line="119" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/ListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/ListIndivItemTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -252,11 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Assignment2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test11Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/udemy/java/supplier/DriverFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ConsumerChainingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test12Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/DriverTestPredicate.java" />
         <option value="$PROJECT_DIR$/src/test/java/AssignmentRemovePredicate.java" />
@@ -303,6 +297,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/PasswordValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/test/ListIndivItemTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/assertion/WebElementAssert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/uitest/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/assertion/PageAssert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/uitest/SearchTest.java" />
       </list>
     </option>
   </component>
@@ -428,7 +427,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Fact&#9;FILE&#9;file:///Users/alexander/workspace/udemy-java8/src/main/java/com/udemy/java/supplier/DriverFactory.java&#10;Consum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Consumer.class" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608697360235" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608701902289" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -459,7 +458,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PasswordValidator.checkPassword">
+  <component name="RunManager" selected="TestNG.SearchTest">
     <configuration name="PasswordValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.java.assertj.test.PasswordValidator" />
       <module name="udemy-java8" />
@@ -491,40 +490,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListIndivItemTest.listTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="udemy-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.java.assertj.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udemy.java.assertj" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.java.assertj.test.ListIndivItemTest" />
-      <option name="METHOD_NAME" value="listTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="udemy-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.java.assertj.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udemy.java.assertj" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.java.assertj.test.ListTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PasswordValidator.checkPassword" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="udemy-java8" />
       <extension name="coverage">
@@ -543,20 +508,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="udemy-java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.java.assertj.uitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy.java.assertj.uitest" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.java.assertj.uitest.SearchTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest.searchTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="udemy-java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.java.assertj.uitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy.java.assertj.uitest" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.java.assertj.uitest.SearchTest" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.ListTest" />
-      <item itemvalue="TestNG.ListIndivItemTest.listTest" />
       <item itemvalue="TestNG.FileTest.fileTest" />
       <item itemvalue="Application.PasswordValidator" />
       <item itemvalue="TestNG.PasswordValidator.checkPassword" />
+      <item itemvalue="TestNG.SearchTest.searchTest" />
+      <item itemvalue="TestNG.SearchTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTest" />
+        <item itemvalue="TestNG.SearchTest.searchTest" />
         <item itemvalue="TestNG.PasswordValidator.checkPassword" />
         <item itemvalue="Application.PasswordValidator" />
         <item itemvalue="TestNG.FileTest.fileTest" />
-        <item itemvalue="TestNG.ListIndivItemTest.listTest" />
-        <item itemvalue="TestNG.ListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -574,35 +573,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PasswordValidator_checkPassword - 2020.12.20 at 18h 29m 33s.xml">
-      <configuration name="PasswordValidator.checkPassword" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidator_checkPassword - 2020.12.20 at 18h 29m 37s.xml">
-      <configuration name="PasswordValidator.checkPassword" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidator_checkPassword - 2020.12.20 at 18h 47m 33s.xml">
-      <configuration name="PasswordValidator.checkPassword" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidator_checkPassword - 2020.12.20 at 18h 47m 44s.xml">
-      <configuration name="PasswordValidator.checkPassword" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidator_checkPassword - 2020.12.20 at 18h 55m 20s.xml">
-      <configuration name="PasswordValidator.checkPassword" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidator_checkPassword - 2020.12.20 at 18h 55m 44s.xml">
-      <configuration name="PasswordValidator.checkPassword" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidator_checkPassword - 2020.12.20 at 18h 55m 57s.xml">
-      <configuration name="PasswordValidator.checkPassword" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidator_checkPassword - 2020.12.20 at 18h 56m 50s.xml">
-      <configuration name="PasswordValidator.checkPassword" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidator_checkPassword - 2020.12.20 at 18h 57m 06s.xml">
-      <configuration name="PasswordValidator.checkPassword" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PasswordValidator_checkPassword - 2020.12.20 at 18h 57m 44s.xml">
       <configuration name="PasswordValidator.checkPassword" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchTest_searchTest - 2020.12.22 at 20h 36m 11s.xml">
+      <configuration name="SearchTest.searchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchTest_searchTest - 2020.12.22 at 20h 36m 54s.xml">
+      <configuration name="SearchTest.searchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchTest_searchTest - 2020.12.22 at 20h 38m 39s.xml">
+      <configuration name="SearchTest.searchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchTest - 2020.12.22 at 21h 34m 19s.xml">
+      <configuration name="SearchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchTest - 2020.12.22 at 21h 34m 44s.xml">
+      <configuration name="SearchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchTest - 2020.12.22 at 21h 35m 51s.xml">
+      <configuration name="SearchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchTest - 2020.12.22 at 21h 36m 57s.xml">
+      <configuration name="SearchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchTest - 2020.12.22 at 21h 37m 50s.xml">
+      <configuration name="SearchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchTest - 2020.12.22 at 21h 38m 26s.xml">
+      <configuration name="SearchTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -627,12 +626,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5733737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57220215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39788198" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980332" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.602118" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.60108304" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3288201" />
@@ -676,46 +675,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/MathOperationEnhanced.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MathOperationTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/MathOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/calculator/TestCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/stream/StreamTask2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -988,13 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar!/org/assertj/core/api/Java6AbstractStandardSoftAssertions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="119" column="68" selection-start-line="119" selection-start-column="68" selection-end-line="119" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1048,14 +1000,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar!/org/assertj/core/api/Java6AbstractStandardSoftAssertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="119" column="68" selection-start-line="119" selection-start-column="68" selection-end-line="119" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/assertion/WebElementAssert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="251">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#283#284#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/uitest/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/assertion/PageAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assertj/uitest/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
           </folding>
         </state>
       </provider>
