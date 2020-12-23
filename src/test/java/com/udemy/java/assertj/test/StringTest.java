@@ -1,4 +1,4 @@
-package com.udemy.java.assertj;
+package com.udemy.java.assertj.test;
 
 import org.assertj.core.api.Assertions;
 import org.testng.annotations.DataProvider;
