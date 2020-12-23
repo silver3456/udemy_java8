@@ -19,6 +19,7 @@ public class OptionalClassTest {
         }
 
 
+
     }
 
 //    //Use Optional in case the func return null, so it will not throw
