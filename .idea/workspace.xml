@@ -43,7 +43,9 @@
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/regression/NegativeTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/src/test/java/com/usa/web/test_data/DataGenerator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tech_assignment/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/HoverableDropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/assignment/PaymentScreenPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/PaymentScreenActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/java/test/PaymentScreenTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/MainClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../udemy_selenium/src/main/java/Table.java" afterDir="false" />
@@ -85,7 +87,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="140" />
+          <entry key="JAVA" value="143" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="3" />
         </counts>
@@ -93,7 +95,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="15360" />
+          <entry key="JAVA" value="16189" />
           <entry key="PLAIN_TEXT" value="51" />
           <entry key="XML" value="31" />
         </counts>
@@ -117,21 +119,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/CheckBoxMaleOrFemaleAssignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="81" column="15" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="84" selection-end-column="10" />
+            <state relative-caret-position="215">
+              <caret line="105" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/HoverableDropdownTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assignment/PaymentScreenPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
+                <element signature="e#1333#1334#0" expanded="true" />
+                <element signature="e#1359#1360#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/HoverableDropdownTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/PaymentScreenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="165">
+              <caret line="48" column="83" selection-start-line="48" selection-start-column="83" selection-end-line="48" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1196#1197#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/PaymentScreenActions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,9 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/udemy/FunctionInterComposeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/FunctionInterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/RunnableInterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/CallableInterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/PredicateTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MathOperationTask.java" />
@@ -217,6 +260,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/assignment/PriceTable.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/PriceTableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/HoverableDropdownTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/assignment/PaymentScreenPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/PaymentScreenActions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/udemy/java/test/PaymentScreenTest.java" />
       </list>
     </option>
   </component>
@@ -329,6 +375,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udemy-java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy-java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,7 +411,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Driver&#9;FILE&#9;file:///Users/alexander/workspace/udemy-java8/src/test/java/com/udemy/java/test/DriverTest.java&#10;Driv&#9;PSI&#9;JAVA://com.udemy.java.supplier.DriverFactory&#10;Fact&#9;FILE&#9;file:///Users/alexander/workspace/udemy-java8/src/main/java/com/udemy/java/supplier/DriverFactory.java&#10;Consum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Consumer.class" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609099352412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609101774223" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -385,7 +442,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HoverableDropdownTest.dropdownTest">
+  <component name="RunManager" selected="TestNG.PaymentScreenTest.paymentScreenTest">
     <configuration name="FirstNamesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udemy.java.assignment.FirstNamesTest" />
       <module name="udemy-java8" />
@@ -430,6 +487,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentScreenTest.paymentScreenTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="udemy-java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.java.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy.java.test" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.java.test.PaymentScreenTest" />
+      <option name="METHOD_NAME" value="paymentScreenTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PriceTableTest.minPriceTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="udemy-java8" />
       <extension name="coverage">
@@ -448,36 +523,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="udemy-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.java.assertj.uitest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.udemy.java.assertj.uitest" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.java.assertj.uitest.SearchTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.SearchTest" />
       <item itemvalue="Application.Task" />
       <item itemvalue="Application.FirstNamesTest" />
       <item itemvalue="TestNG.PriceTableTest.minPriceTest" />
       <item itemvalue="TestNG.HoverableDropdownTest.dropdownTest" />
+      <item itemvalue="TestNG.PaymentScreenTest.paymentScreenTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PaymentScreenTest.paymentScreenTest" />
         <item itemvalue="TestNG.HoverableDropdownTest.dropdownTest" />
         <item itemvalue="TestNG.PriceTableTest.minPriceTest" />
         <item itemvalue="Application.FirstNamesTest" />
         <item itemvalue="Application.Task" />
-        <item itemvalue="TestNG.SearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -495,15 +554,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchTest_searchTest - 2020.12.22 at 20h 36m 11s.xml">
-      <configuration name="SearchTest.searchTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchTest_searchTest - 2020.12.22 at 20h 36m 54s.xml">
-      <configuration name="SearchTest.searchTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchTest_searchTest - 2020.12.22 at 20h 38m 39s.xml">
-      <configuration name="SearchTest.searchTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SearchTest - 2020.12.22 at 21h 34m 19s.xml">
       <configuration name="SearchTest" configurationId="TestNG" />
     </history-entry>
@@ -524,6 +574,15 @@
     </history-entry>
     <history-entry file="PriceTableTest_minPriceTest - 2020.12.25 at 16h 22m 04s.xml">
       <configuration name="PriceTableTest.minPriceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverableDropdownTest_dropdownTest - 2020.12.27 at 11h 59m 48s.xml">
+      <configuration name="HoverableDropdownTest.dropdownTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverableDropdownTest_dropdownTest - 2020.12.27 at 12h 02m 20s.xml">
+      <configuration name="HoverableDropdownTest.dropdownTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverableDropdownTest_dropdownTest - 2020.12.27 at 12h 02m 46s.xml">
+      <configuration name="HoverableDropdownTest.dropdownTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -597,27 +656,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/supplier/SearchCriteriaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/java/pages/TableDemoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/FlatMapTesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -826,6 +864,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,6 +889,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -861,6 +916,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -961,21 +1021,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/CheckBoxMaleOrFemaleAssignment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="81" column="15" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="84" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/HoverableDropdownTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="545">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#910#911#0" expanded="true" />
             <element signature="e#944#945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/CheckBoxMaleOrFemaleAssignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="105" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/assignment/PaymentScreenPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/PaymentScreenActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/java/test/PaymentScreenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="48" column="83" selection-start-line="48" selection-start-column="83" selection-end-line="48" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
           </folding>
         </state>
       </provider>
